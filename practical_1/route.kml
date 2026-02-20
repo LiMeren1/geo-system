@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Туристичний маршрут Києвом</name>
+    <description>Маршрут історичним центром</description>
+    <Style id="route_line">
+      <LineStyle><color>ff0000ff</color><width>4</width></LineStyle>
+    </Style>
+    <Placemark>
+      <name>Золоті ворота</name>
+      <description>Головна брама стародавнього Києва.</description>
+      <Point><coordinates>30.5133,50.4488,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Софійський собор</name>
+      <description>Пам'ятка архітектури XI століття.</description>
+      <Point><coordinates>30.5144,50.4527,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Шлях</name>
+      <styleUrl>#route_line</styleUrl>
+      <LineString>
+        <coordinates>30.5133,50.4488,0 30.5144,50.4527,0</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
